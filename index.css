@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#puzzleDiv {
+    position: relative;
+    width: 300px;
+    height: 325px;
+    margin: 0 auto;
+    top: 100px;
+    background-color: #666;
+    color: #fff;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+#puzzleDiv table{
+
+}
+
+#puzzleDiv table caption{
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+	background-color: #fff;
+}
+
+#puzzleDiv table div {
+	width: 70px;
+	height: 70px;
+	background-color: #999;
+	text-align: center;
+	line-height: 4em;
+    cursor: pointer;
+    font-family: Arial,Tahoma,"hiragino sans gb",Helvetica;
+}
+
+#puzzleDiv table div:hover {
+	background-color: #ccc;
+	color: #333;
+}
+
+#puzzleDiv table div:active {
+    background-color: #666;
+    color: #fff;
+}
+
+#puzzleDiv table div.empty {
+	background-color: #bbb;
+}
+
+#puzzleDiv #infoDiv {
+    text-align: center;
+    color: #000;
+    font-famliy: Arial, Tahoma, "hiragino sans gb", Helvetica;
+    font-size: 18px;
+    font-weight: bold;
+}

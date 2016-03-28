@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Fifteen Puzzle</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="puzzleDiv">
+    <table id="puzzleGrid" cellpadding="0" cellspacing="4">
+        <tbody>
+        <caption>Fifteen Puzzle</caption>
+        <tr>
+            <td id="11"><div class="tiles" title="01">01</div></td>
+            <td id="12"><div class="tiles" title="05">05</div></td>
+            <td id="13"><div class="tiles" title="14">14</div></td>
+            <td id="14"><div class="tiles" title="11">11</div></td>
+        </tr>
+        <tr>
+            <td id="21"><div class="tiles" title="12">12</div></td>
+            <td id="22"><div class="tiles empty" title="empty"></div></td>
+            <td id="23"><div class="tiles" title="10">10</div></td>
+            <td id="24"><div class="tiles" title="03">03</div></td>
+        </tr>
+        <tr>
+            <td id="31"><div class="tiles" title="02">02</div></td>
+            <td id="32"><div class="tiles" title="06">06</div></td>
+            <td id="33"><div class="tiles" title="04">04</div></td>
+            <td id="34"><div class="tiles" title="09">09</div></td>
+        </tr>
+        <tr>
+            <td id="41"><div class="tiles" title="15">15</div></td>
+            <td id="42"><div class="tiles" title="08">08</div></td>
+            <td id="43"><div class="tiles" title="13">13</div></td>
+            <td id="44"><div class="tiles" title="07">07</div></td>
+        </tr>
+        </tbody>
+    </table>
+    <div id="infoDiv">
+        <p>Time: <span id="timer">0 h 0 m 0 s</span></p>
+        <p>Steps: <span id="counter">0</span></p>
+        <input type="hidden" id="timeValue" value="">
+    </div>
+</div>
+</body>
+</html>
